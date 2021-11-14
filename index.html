@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rock Paper Scissors Game!</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+
+<body>
+    <center>
+        <h1>Computer's Choice:</h1>
+        <h2 id="compChoice">?</h2>
+        <h1>Your Choice:</h1>
+        <h2 id="yourChoice">?</h2>
+        <h1>Final Score:</h1>
+        <h2 id="finalScore">?</h2>
+        
+        
+
+        <button class="choices" id="rock">Rock</button>
+        <button class="choices" id="paper">Paper</button>
+        <button class="choices" id="scissors">Scissors</button>
+        <button onclick="restartFunc()" id="restart">Restart</button>
+      
+      
+        <audio id= "rock-audio"
+          src="rock.mp3">
+          Your browser does not support the <code>audio</code> element.
+        </audio>
+      
+        <audio id= "paper-audio"
+          src="paper.mp3">
+          Your browser does not support the <code>audio</code> element.
+        </audio>
+      
+      
+        <audio id= "scissor-audio"
+          src="scissor.mp3">
+          Your browser does not support the <code>audio</code> element.
+        </audio>
+      
+      
+
+        <script src="script.js"></script>
+    </center>
+</body>
+
+</html>
